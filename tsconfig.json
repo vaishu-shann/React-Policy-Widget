@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "jsx": "react",
+      "esModuleInterop": true,
+      "skipLibCheck": true, // This can be added to skip checking the entire node_modules directory
+      "forceConsistentCasingInFileNames": true
+    }
+  }
+  

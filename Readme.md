@@ -31,7 +31,8 @@ const [addToCartResponse, setAddToCartResponse] = useState(null);
     <div>
       <h1>Welcome to My Application</h1>
       <PolicyWidget onAddToCart={handleAddToCartResponse}/>
-     <h2>{addToCartResponse}</h2>
+    {addToCartResponse &&
+      <div className="selected-policy">Selected Policy : You have selected<span className="selected-span"> {addToCartResponse} year</span> policy</div>}
     </div>
   );
 }

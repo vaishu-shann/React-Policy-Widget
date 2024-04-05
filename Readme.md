@@ -4,8 +4,9 @@ The React Policy Widget is a customizable React component designed to display an
 
 This README will guide you through the installation, usage, and customization of the React Policy Widget.
 
-## Getting Started
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Getting Started
 
 First, run the development server:
 
